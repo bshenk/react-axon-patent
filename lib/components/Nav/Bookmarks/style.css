@@ -1,0 +1,37 @@
+.bookmarks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.bookmarks .bookmarks-title, .bookmarks .bookmarks-filter {
+  flex: 0 0 auto;
+}
+
+.bookmarks .bookmarks-list {
+  flex: 1 0 auto;
+}
+
+.bookmarks .bookmarks-title p {
+  display: inline;
+  margin-left: 10px;
+}
+
+.bookmarks .bookmarks-title .content {
+  padding: 15px 20px;
+}
+
+.bookmarks .bookmarks-filter input {
+  background: #131415;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: white;
+}
+
+.bookmarks .bookmarks-list {
+  background: #4188e0;
+}

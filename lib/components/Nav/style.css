@@ -1,0 +1,83 @@
+.nav {
+  flex: 0 0 auto;
+  width: 250px;
+  background: #1E2124;
+  border: 1px solid black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.nav .logo, .nav .actions-bar, .nav .investigation-info {
+  flex: 0 0 auto;
+}
+
+.nav .bookmarks {
+  flex: 1 0 auto;
+}
+
+.nav p {
+  font-size: 13px;
+}
+
+.section {
+  border-bottom: 1px solid black;
+}
+
+.nav .logo {
+  color: #5D9BE7;
+  font-weight: 300;
+  font-size: 26px;
+  letter-spacing: -1px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.nav .logo span.bold {
+  font-weight: 900;
+  color: white;
+}
+
+.investigation-info {
+  padding: 15px 20px;
+}
+
+.investigation-info h5 {
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 10px;
+  opacity: .5;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.investigation-info p {
+  margin: 0;
+}
+
+.patent-search, .patent-landscape, .patent-recommendations {
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.patent-search i, .patent-landscape i, .patent-recommendations i {
+  margin-right: 10px;
+}
+
+.patent-search p, .patent-landscape p, .patent-recommendations p {
+  margin: 0;
+  opacity: .6;
+  transition: 0.2s opacity ease-in-out;
+}
+
+.patent-search:hover p, .patent-landscape:hover p, .patent-recommendations:hover p {
+  opacity: 1;
+}
+
+.copyright p {
+  font-size: 11px;
+  opacity: .4;
+  text-align: center;
+}

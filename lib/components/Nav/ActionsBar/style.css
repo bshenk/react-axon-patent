@@ -1,0 +1,21 @@
+.actions-bar {
+  height: 40px;
+  color: white;
+}
+
+.actions-bar .actions {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+}
+
+.actions-bar .actions i {
+  opacity: .6;
+  cursor: pointer;
+  transition: 0.2s opacity ease-in-out;
+  margin-right: 10px;
+}
+
+.actions-bar .actions i:hover {
+  opacity: 1;
+}

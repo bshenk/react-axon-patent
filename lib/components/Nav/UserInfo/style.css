@@ -1,0 +1,33 @@
+.user-info {
+  padding: 15px 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.user-info .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(221, 221, 221, .3);
+  display: inline-block;
+  margin-right: 20px;
+  flex: 0 0 auto;
+}
+
+.user-info .info {
+  display: inline-block;
+  flex: 1 0 auto;
+}
+
+.user-info .info p, .user-info .info h3 {
+  margin: 0;
+}
+
+.user-info .info p {
+  line-height: 17px;
+  opacity: .6;
+}
+
+.user-info .info h3 {
+  line-height: 23px;
+}
