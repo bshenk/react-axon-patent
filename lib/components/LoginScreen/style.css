@@ -1,0 +1,73 @@
+.login-screen {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+  background: #2A68B4;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.2s margin-top ease-in-out;
+  color: white;
+}
+
+.login-screen button {
+  border-radius: 2px;
+  background: white;
+  color: #1F1F1F;
+  border: 0;
+  outline: 0;
+  padding: 5px 20px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s box-shadow ease-in-out;
+}
+
+.login-screen button:hover {
+  box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.1);
+}
+
+.login-screen a {
+  color: white;
+  text-decoration: none;
+  opacity: .6;
+  transition: 0.2s opacity ease-in-out;
+}
+
+.login-screen a:hover {
+  opacity: 1;
+}
+
+.login-screen input {
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: 2px solid white;
+  color: white;
+   min-width: 300px; 
+}
+
+.login-screen input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.login-screen h1 {
+  font-weight: 100;
+  color: white;
+}
+
+.login-screen .bold {
+  font-weight: 900;
+}
+
+.login-screen .messages {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-screen .back-to-app {
+  margin-top: 20px;
+  cursor: pointer;
+}
