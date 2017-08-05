@@ -11,6 +11,7 @@
   flex-direction: column;
   transition: 0.2s margin-top ease-in-out;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .login-screen button {

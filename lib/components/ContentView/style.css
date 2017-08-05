@@ -1,0 +1,7 @@
+.app-body > .content {
+  flex: 1 0 auto;
+  background: #fcfcfc;
+
+  display: flex;
+  flex-wrap: nowrap;
+}

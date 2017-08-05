@@ -10,6 +10,7 @@ Package.onUse(api => {
   ])
 
   api.mainModule('lib/main.js', 'client')
+  // api.mainModule('lib/main.js', 'server')
 
   api.addAssets(['lib/assets/user-image.png'], ['client'])
 })

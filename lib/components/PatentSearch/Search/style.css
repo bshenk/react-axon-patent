@@ -1,0 +1,42 @@
+.search {
+  min-width: 400px;
+  flex: 0 0 auto;
+}
+
+.search .header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.search input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  margin-left: 20px;
+  flex: 1 0 auto;
+  padding: 0;
+}
+
+.search input:focus {
+  border-bottom: 1px solid white;
+}
+
+.search form {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 30px 20px 20px;
+}
+
+.search input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search .header i {
+  flex: 0 0 auto;
+  opacity: .6;
+  align-self: center;
+}
