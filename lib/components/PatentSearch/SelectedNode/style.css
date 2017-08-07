@@ -1,0 +1,62 @@
+.citation-text {
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.citation-text h3 {
+  font-size: 23px;
+}
+
+.citation-text h3, .citation-text h5 {
+  margin: 0;
+}
+
+.citation-text h5 {
+  opacity: .5;
+  margin: 0 0 10px 0;
+}
+
+.citation-header {
+  background: #2A68B4;
+  color: white;
+  padding: 30px;
+}
+
+.citation-header a {
+  text-decoration: none;
+  color: white;
+}
+
+.patent-buttons i {
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+.patent-buttons i.active {
+  color: #C04C40;
+}
+
+.citation-info {
+  padding: 10px 30px;
+  background: #F3F3F3;
+}
+
+.citation-info p {
+  text-align: left;
+}
+
+.citation-info p span {
+  text-align: right;
+  max-width: 200px;
+}
+
+.citation-info .non-bold {
+  font-weight: 300;
+}
+
+.citation-info .classification p {
+  display: flex;
+  justify-content: space-between;
+}

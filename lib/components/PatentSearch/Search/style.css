@@ -1,8 +1,3 @@
-.search {
-  min-width: 400px;
-  flex: 0 0 auto;
-}
-
 .search .header {
   display: flex;
   margin: 0;
@@ -39,4 +34,42 @@
   flex: 0 0 auto;
   opacity: .6;
   align-self: center;
+}
+
+.search p {
+  display: inline-block;
+  color: #6aa9f7;
+}
+
+.search .id {
+  display: inline-block;
+}
+
+.search .results-list li.selected {
+  background: #2A68B4;
+}
+
+.search .results-list .abstract {
+  font-size: 14px;
+  color: rgba(255, 255, 255, .9);
+  display: block;
+  margin-top: 10px;
+}
+
+.search .results-list .result-header {
+  display: flex;
+}
+
+.search .results-list .result-header .bookmark-icon {
+  flex: 0 0 auto;
+  padding-right: 15px;
+  font-size: 25px;
+}
+
+.search .results-list .result-header .bookmark-icon.bookmarked i {
+  color: #C04C40;
+}
+
+.search .results-list .result-header .info {
+  flex: 1 1 auto;
 }

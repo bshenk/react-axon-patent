@@ -5,6 +5,18 @@ h1, h2, h3, h4, h5 {
 .app-body {
   font-family: 'Roboto', sans-serif;
   display: flex;
-  flex-wrap: no-wrap;
   height: 100vh;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.list {
+    width: 450px;
+}
+
+.bullet-before::before {
+  display: inline-block;
+  content: '• ';
+  padding: 0 5px;
 }

@@ -1,7 +1,5 @@
 .user-info {
   padding: 15px 20px;
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 .user-info .avatar {
@@ -16,7 +14,7 @@
 
 .user-info .info {
   display: inline-block;
-  flex: 1 0 auto;
+  margin-top: -2px;
 }
 
 .user-info .info p, .user-info .info h3 {
@@ -24,10 +22,10 @@
 }
 
 .user-info .info p {
-  line-height: 17px;
+  line-height: 20px;
   opacity: .6;
 }
 
 .user-info .info h3 {
-  line-height: 23px;
+  line-height: 22px;
 }
